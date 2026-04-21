@@ -8,7 +8,7 @@ def add_to_calculation(symbol):
     text_result.delete(1.0, "end")
     text_result.insert(1.0, calculation)
 
-def evalute_calculation():
+def evaluate_calculation():
     global calculation
     try:
         calculation = str(eval(calculation))
